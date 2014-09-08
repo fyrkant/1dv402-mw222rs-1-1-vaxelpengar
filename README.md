@@ -2,7 +2,7 @@
 ====================================
 [1-1-vaxelpengar.pdf](https://github.com/1dv402/kursmaterial/raw/master/Laborationsuppgifter/1-1-vaxelpengar.pdf)
 
-Test-ändring!
+Test-ändring! Nummer två!
 
 "Då du handlar i en affär och betalar kontant får du kanske växel tillbaka. I regel får affärsbiträdet hjälp av kassaapparaten med att beräkna summan kunden ska få tillbaka. Vilka sedlar och mynt som ska lämnas tillbaka får affärsbiträdet själv räkna ut i huvudet. Kan ett program göra båda sakerna istället?
 
