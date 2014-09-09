@@ -16,8 +16,7 @@ namespace Vaxelpengar
             uint attBetala;
             double avrundningsTal;
             int tillbaka;
-            string nastaKop;
-
+            
             // Läs in totalsumman.
             while (true)
             {
@@ -91,7 +90,7 @@ namespace Vaxelpengar
             // Visa inte öresavrundningen om ingen avrundning skett.
             if (avrundningsTal != 0)
             {
-                Console.WriteLine("|Öresavrundning: {0, 8:f2} kr|", avrundningsTal); 
+            Console.WriteLine("|Öresavrundning: {0, 8:f2} kr|", avrundningsTal); 
             }
 
             Console.WriteLine("|Att betala    : {0, 8} kr|", attBetala);
@@ -134,13 +133,9 @@ namespace Vaxelpengar
             {
                 Console.WriteLine("  1-kronor: {0, 15}", tillbaka); 
             }
-            
-            //// Nästa kund?
-            //Console.Write("Tryck på valfri knapp för att påbörja nästa köp eller avsluta genom att trycka på escape-knappen.");
-            //Console.ReadKey();
-            //return;
-
-            Console.WriteLine("Välkommen åter! Tryck på valfri knapp för att avsluta programmet.");
+          
+            // Avslut.
+            Console.WriteLine("Välkommen åter! Valfri knapp avslutar programmet.");
             Console.ReadKey();
 
         }
